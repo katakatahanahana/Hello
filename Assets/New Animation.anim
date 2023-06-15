@@ -78,6 +78,41 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.016666668
+    functionName: Sound
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: Sound
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 2a2fa369b07f64c72b7efd993ffc17ec, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6666667
+    functionName: Sound
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 5f856679ca540476bb51e9eae7ef406f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
+    functionName: Sound
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 5f856679ca540476bb51e9eae7ef406f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.3333334
+    functionName: Sound
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 5f856679ca540476bb51e9eae7ef406f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.7
     functionName: Hello
     data: 

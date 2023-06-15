@@ -5,10 +5,13 @@ using UnityEngine;
 public class KonnnichihaScript : MonoBehaviour
 {
     public GameObject A;
+    public AudioSource[] audioSource;
+  
+
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
@@ -16,10 +19,16 @@ public class KonnnichihaScript : MonoBehaviour
     {
         
     }
+
     public void Hello()
     {
-        // Debug.Log("こんにちわん");
         this.gameObject.SetActive(false);
         A.SetActive(true);
+    }
+
+    public void Sound()
+    {
+        //音を鳴らす
+        audioSource[0].Play();
     }
 }
